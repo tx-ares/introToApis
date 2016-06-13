@@ -1,0 +1,39 @@
+/* Default styles */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #22135f;
+}
+
+/* Container Styles */
+.statesContainer {
+	
+	}
+
+.legislatorBox {
+	display:inline-block;
+	background-color: #ab1234;
+	padding: 10px;
+	margin: 10px;
+	width: 31%;
+	border: 2px solid slategray;
+	box-shadow: 5px 20px 20px 5px;
+
+}
+
+.title {
+	background-color: whitesmoke;
+	box-shadow: 5px 20px 20px 5px;
+	border: white;
+	border-radius:25px;
+	text-align: center;
+
+}
+
+.searchBar {
+	margin:20px auto;
+	display: block;
+
+}
