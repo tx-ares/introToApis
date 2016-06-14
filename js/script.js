@@ -20,7 +20,7 @@ var handleData = function(apiResponse) {
 	console.log(apiResponse)
 	var legislatorArray = apiResponse.results
 
-	var htmlString = '<h1 class="title">We have '  + apiResponse.count + ' congressional cuties to show you today!</h1>'
+	var htmlString = '<h1 class="title">Find your Legislator!</h1>'
 		htmlString += '<input type="text" class="searchBar" placeholder="Enter zip code"/>'
 	for (var i = 0; i < legislatorArray.length; i++) {
 		var legislatorObject = legislatorArray[i]
